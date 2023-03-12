@@ -17,10 +17,13 @@ Invoke-WebRequest "https://raw.githubusercontent.com/rlawoals2590/vanilla-settin
 Invoke-WebRequest "https://raw.githubusercontent.com/rlawoals2590/vanilla-setting-script/master/awscli-config.ps1" -OutFile "awscli-config.ps1"
 .\awscli-config.ps1
 ```
-#### input your Access Key & Secret Access Key
+#### input your Access Key & Secret Access Key & Region
 ```
 Input Youre AWS Access Key : Your_Access_key
 Input Youre AWS Secret Key : Your_Secret_Key
+Input Youre Use AWS Region : Your_Region
+
+default region : us-west-2
 ```
 
 
